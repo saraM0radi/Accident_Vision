@@ -41,8 +41,8 @@ Our approach extracts both spatial and motion-based representations:
 | `time_to_accident` | Time before accident happens |
 
 ### ✅ Label Rule
-time_of_event != NaN → Accident (1)
-time_of_event == NaN → No Accident (0)
+- time_of_event != NaN → Accident (1)
+- time_of_event == NaN → No Accident (0)
 
 ---
 
